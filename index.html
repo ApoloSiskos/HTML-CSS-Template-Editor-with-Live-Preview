@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" debug="true">
+<head>
+	<title>[B-Dat001]</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="./main.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="javascript.js" type="text/javascript"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="manifest.json">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#000000">
+</head>
+<body>
+    <!-- Preview Box -->
+	<div class="innerbox preview">
+		<iframe id="previewTarget"></iframe>
+	</div>
+    <!-- Modify Boxes -->
+	<div class="section group">
+		<div class="col span_1_of_4">
+		<input type="text" placeholder="BANNER BACKGROUND COLOR" id='thebox1'>
+		</div>
+		<div class="col span_1_of_4">
+		<input type="text" placeholder="BANNER TEXT COLOR" id='thebox2'>
+		</div>
+		<div class="col span_1_of_4">
+		<input type="text" placeholder="LOGO BOX 1 BACKGROUND COLOR" id='thebox5'>
+		</div>
+		<div class="col span_1_of_4">
+		<input type="text" placeholder="LOGO BOX 2 BACKGROUND COLOR" id='thebox3'>
+		</div>
+	</div>
+	<div class="section group">
+		<div class="col span_1_of_4">
+		<input type="text" placeholder="TITLE 1" id='thebox4'>
+		</div>
+		<div class="col span_1_of_4">
+		<input type="text" placeholder="TITLE 2" id='thebox6'>
+		</div>
+		<div class="col span_1_of_4">
+		<input type="text" placeholder="LOGO BOX 1 IMAGE" id='thebox7'>
+		</div>
+		<div class="col span_1_of_4">
+		<input type="text" placeholder="LOGO BOX 2 IMAGE" id='thebox8'>
+		</div>
+	</div>
+	<!-- HTML and CSS Code Boxes (Hidden) -->
+	<div id="unhide" class="section group"  style="display:none;" onclick="window.location.hash='back';">
+		<div class="col span_2_of_4" style="background:#333;">	<div id="copyTarget2" contenteditable="true">
+		<blockquote><pre><code><xmp><div id="topsection"><div id="line1"></xmp><b class="popup4" style="color:#fff;">TITLE 1</b><xmp></div><div id="line2"></xmp><b class="popup6" style="color:#fff;">TITLE 2</b><xmp></div></div><div id="logosection"><img style="display: block; margin: 0;" src="</xmp><b class="popup7" style="color:#fff;">IMAGE LINK</b><xmp>" alt="" width="200" height="200"/></div><div id="logosection2"><img class="center" src="</xmp><b class="popup8" style="color:#fff;">IMAGE LINK</b><xmp>" alt="" width="200" height="200"/></div></xmp></code></pre></blockquote>
+	</div>
+		</div>
+		<div class="col span_2_of_4" style="background:#333;">		<div id="copyTarget1" contenteditable="true">
+			<blockquote>
+				<pre>
+					<code>
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+font-family: 'Lato',sans serif;
+margin:0;
+overflow:hidden;
+}
+
+#topsection {
+background-color: #<b class="popup1" style="color:#fff;">value </b>;
+width:100%;
+height:80px;
+z-index:1;
+position:absolute;
+left:0;
+color: #<b class="popup2" style="color:#fff;">value </b>;
+top:15px;
+}
+
+#line1 {
+margin-left:160px;
+font-size:calc(10px + 1.5vw);
+height: 50%;
+line-height: 40px;
+}
+
+#line2 {
+height: 50%;
+line-height: 40px;
+margin-left:160px;
+font-size:calc(10px + 1.1vw);
+}
+
+#logosection {
+position:absolute;
+background: #<b class="popup5" style="color:#fff;">value </b>;
+width:120px;
+height:120px;
+display: inline-block;
+vertical-align: middle;  
+text-align: center;
+z-index: 2;
+left:10px;
+box-shadow: 2px 2px 5px #000000;
+}
+
+#logosection2{
+position:absolute;
+background: #<b class="popup3" style="color:#fff;">value </b>;
+width:120px;
+height:120px;
+text-align: center;
+z-index: 2;
+right:10px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 0 5px 2px #000000;
+}
+
+img
+{
+width:100%;
+height:auto;
+max-width:120px;
+max-height:120px;
+}
+
+.center
+{
+display: inline-block;
+vertical-align: middle;
+}
+					</code>
+				</pre>
+			</blockquote>
+		</div>
+		</div>
+	</div>
+	<div class="content" style="display: none;">
+		<div class="column1" >
+			<blockquote>
+				<div class="APOLO">
+			<!-- CSS TEXTAREA -->
+				<textarea id="textareacss" class="innerbox css" >
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+font-family: 'Lato',sans serif;
+margin:0;
+overflow:hidden;
+}
+
+#topsection {
+background-color:#0d3852;
+width:100%;
+height:80px;
+z-index:1;
+position:absolute;
+left:0;
+color: #2cc3ce;
+top:15px;
+}
+
+#line1 {
+margin-left:160px;
+font-size:calc(10px + 1.5vw);
+color:#2cc3ce;
+height: 50%;
+line-height: 40px;
+}
+
+#line2 {
+color: #2cc3ce;
+height: 50%;
+line-height: 40px;
+margin-left:160px;
+font-size:calc(10px + 1.1vw);
+}
+
+#logosection {
+position:absolute;
+width:120px;
+height:120px;
+display: inline-block;
+vertical-align: middle;  
+text-align: center;
+z-index: 2;
+left:10px;
+box-shadow: 2px 2px 5px #000000;
+}
+
+#logosection2{
+position:absolute;
+background: #2cc3ce;
+width:120px;
+height:120px;
+text-align: center;
+z-index: 2;
+right:10px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 2px 0 5px 2px #000000;
+}
+
+img
+{
+width:100%;
+height:auto;
+max-width:120px;
+max-height:120px;
+}
+
+.center
+{
+display: inline-block;
+vertical-align: middle;
+}
+					</textarea>
+				</div>
+			</blockquote>
+		</div>
+		<div class="column2" >
+			<blockquote>
+				<div class="APOLO">
+				<!-- HTML TEXTAREA -->
+					<textarea id="textareahtml" class="innerbox html">
+					<div id="topsection">
+					<div id="line1">Digital Marketing Lens</div>
+					<div id="line2">{Query.Start Date ()} - {Query.End Date ()}</div>
+					</div>
+					<div id="logosection"><img style="display: block; margin: 0;" src="https://media.licdn.com/media/AAEAAQAAAAAAAAVxAAAAJDFlMzQ1NzE4LTBhZDgtNDZjMi1hZTI4LWMxOGU4ODBhNDc3Mw.png" alt="" width="200" height="75" /></div>
+					<div id="logosection2"><img class="center" src="https://media.licdn.com/media/AAEAAQAAAAAAAAVxAAAAJDFlMzQ1NzE4LTBhZDgtNDZjMi1hZTI4LWMxOGU4ODBhNDc3Mw.png" alt="" width="200" height="200" /></div>
+					</textarea>
+				</div>
+			</blockquote>
+		</div>
+	</div>
+	<!-- Footer -->
+	<div class="footer">	
+		<div class="section2 group2">
+			<div class="col2 span_1_of_3">
+				<button class="buttons" id="copyButton2">Copy HTML Code</button>
+			</div>
+			<div class="col2 span_1_of_3">
+				<button class="buttons" id="copyButton1">Copy CSS Code</button>
+			</div>
+			<div class="col2 span_1_of_3">
+				<a href="#"><input class="buttons" id="Update" type="button" value="PREVIEW"" /></a>
+			</div>
+		</div>
+	Experienced enough? Click to manually edit the code <br>
+	<a href="#unhide" id="back"><button id="expand" name="expand" >Show The Code</button></a>
+	</div>
+</body>
+ 
